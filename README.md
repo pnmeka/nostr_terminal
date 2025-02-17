@@ -40,3 +40,5 @@ To build use the Nostr executable, simply compile the rust code and run the resu
        ./nostr_terminal "Hello from Terminal"
 
     
+The notes will be written under:
+https://snort.social/nprofile1qqsyn0gjs37s3ww84raevng2aludhuc60ezru99qqs38qz8j3v9zkhgppemhxue69uhkummn9ekx7mp0qy2hwumn8ghj7un9d3shjtnyv9kh2uewd9hj7qgewaehxw309aex2mrp0yh8xmn0wf6zuum0vd5kzmp0dpgw9r
