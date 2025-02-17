@@ -13,13 +13,13 @@ Example Usage
 
 To use the following Nostr executable, you can print a message using the following command:
 
-    ./nostr "post hello nostr"
+    ./nostr_terminal "post hello nostr"
 
 This command will create a new Nostr event with the text "hello nostr" and send it to the Nostr network. The event will then be relayed by one or more relays, making it available to other users on the network.
 
 To build use the Nostr executable, simply compile the rust code and run the resulting binary with the desired command-line arguments. For example:
 
-    ./nostr "post hello world"
+    ./nostr_terminal "post hello world"
 
 # Get Started
 
