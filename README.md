@@ -42,3 +42,12 @@ To build use the Nostr executable, simply compile the rust code and run the resu
     
 The notes will be written under:
 https://snort.social/nprofile1qqsyn0gjs37s3ww84raevng2aludhuc60ezru99qqs38qz8j3v9zkhgppemhxue69uhkummn9ekx7mp0qy2hwumn8ghj7un9d3shjtnyv9kh2uewd9hj7qgewaehxw309aex2mrp0yh8xmn0wf6zuum0vd5kzmp0dpgw9r
+
+
+**Key Points for Working with Nostr**
+
+* **1. Nsec is the foundation**: The nsec (Nostr secret key) is the only thing you need to perform tasks from the client-side, similar to how a kernel operates. It serves as the basis for all interactions with the Nostr network.
+* **2. Schnorr signatures for event signing**: Schnorr signatures are used to sign events, such as notes (which are a type of event, specifically kind 1 events). This ensures the authenticity and integrity of the events being shared on the network.
+* **3. Utilize SDKs for easier development**: There are various Software Development Kits (SDKs) available that can simplify the process of working with Nostr. These SDKs provide pre-built functions and tools, making it easier to integrate Nostr into your applications and reducing the amount of custom code you need to write.
+
+By keeping these points in mind, you can effectively work with Nostr and leverage its capabilities to create decentralized, secure, and censorship-resistant applications.
